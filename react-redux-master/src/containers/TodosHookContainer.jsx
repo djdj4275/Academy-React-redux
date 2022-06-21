@@ -8,6 +8,7 @@ const TodocHookContainer = () => {
     input: state.todos.input,
     todos: state.todos.todos,
   }));
+  // dispatch시 todos.js 에 가서 reducer에서 가져옴
   const dispatch = useDispatch();
   const onChangeInput = useCallback((input) => dispatch(changeInput(input)), [dispatch]);
   const onInsert = useCallback((text) => dispatch(insert(text)), [dispatch]);

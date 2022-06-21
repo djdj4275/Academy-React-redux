@@ -1,4 +1,4 @@
-// 액션 타입
+// 액션 타입 = 값에 영향이 가는것만 
 const CHANGE_INPUT = "todos/CHANGE_INPUT"; // 인풋 값 수정
 const INSERT = "todos/INSERT"; // 새로운 todo 추가
 const TOGGLE = "todos/TOGGLE"; // 체크박스
